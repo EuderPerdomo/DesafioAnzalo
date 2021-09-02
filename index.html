@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+            integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+            crossorigin="anonymous" />
+        
+        <title>Ansalo</title>
+        <link rel="stylesheet" href="./css.css">
+    </head>
+
+    <body>
+
+        <h1 class="align-center title">ANZALO CHALLENGE</h1>
+
+        <div class="container main">
+
+            <div class="row">
+                <div class="col-2 align-center">
+                    <p>Numbers</p>
+                </div>
+                <div class="col-10 align-center">
+                    <input class="number" id="number" type="text" disabled style="width: 100%;">
+                    <!--<p class="output" id="output1"></p>-->
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-2 align-center">
+                    <p>Letters</p>
+                </div>
+                <div class="col-10 align-center">
+                    <input class="letter" id="letter" type="text" disabled style="width: 100%;">
+                    <!--<p class="output" id="output2"></p>-->
+                </div>
+            </div>
+
+            <div class="row">
+
+                <div class="col-4 align-center margin">
+                    <button type="button" class="btn btn-dark boton" id="A1">A-1</button>
+                </div>
+                <div class="col-4 align-center margin">
+                    <button type="button" class="btn btn-dark boton" id="B2">B-2</button>
+                </div>
+                <div class="col-4 align-center margin">
+                    <button type="button" class="btn btn-dark boton" id="C3">C-3</button>
+                </div>
+                <div class="col-4 align-center margin">
+                    <button type="button" class="btn btn-dark boton" id="D4">D-4</button>
+                </div>
+                <div class="col-4 align-center margin">
+                    <button type="button" class="btn btn-dark boton" id="E5">E-5</button>
+                </div>
+                <div class="col-4 align-center margin">
+                    <button type="button" class="btn btn-dark boton" id="F6">F-6</button>
+                </div>
+                <div class="col-4 align-center margin">
+                    <button type="button" class="btn btn-dark boton" id="G7">G-7</button>
+                </div>
+                <div class="col-4 align-center margin">
+                    <button type="button" class="btn btn-dark boton" id="H8">H-8</button>
+                </div>
+                <div class="col-4 align-center margin">
+                    <button type="button" class="btn btn-dark boton" id="I9">I-9</button>
+                </div>
+                <div class="col-4 align-center margin">
+                    <button type="button" class="btn btn-dark boton" id="J0">J-0</button>
+                </div>                
+            </div>
+
+            <div class="row">
+                <div class="col-12 align-center margin">
+                    <button  id="clear" type="button" class="btn btn-danger boton_limpiar" onclick="clean();">Limpiar</button>
+                </div>
+            </div>
+
+        </div>
+        <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+        <script src="script.js"></script>
+        
+    </body>
+
+</html>
